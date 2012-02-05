@@ -1,0 +1,9 @@
+这是一个学习如何处理图片的Rails例子。
+1. 在Gemfile 加入mini_magick和carrierwave
+2. rails g model User nickname:string avatar:string
+3. rake db:create
+4. rake db:migrate
+5. 生成uploader: rails g uploader Avatar
+
+
+http://luoping0425.iteye.com/blog/1059475
